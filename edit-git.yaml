@@ -3,9 +3,64 @@ resources:
   type: git
   source:
    uri: https://github.com/yprashanth67/lostcause.git
-   branch: master
-   usernname: yprashanth67@yahoo.com
-   password: pP#8019805055
+  #  branch: master
+  #  username: yprashanth67
+  #  password: Infor#8019805055
+   
+- name: put-repo
+  type: git
+  source:
+    uri: git@github.com:yprashanth67/Test1.git
+    branch: master
+    private_key: |
+      -----BEGIN OPENSSH PRIVATE KEY-----
+      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
+      -----END OPENSSH PRIVATE KEY-----
+
+
+
+# - name: repo1
+#   type: git
+#   source:
+#    uri: https://github.com/yprashanth67/lostcause.git
+
+
+
 jobs:
 - name: edit-git
   plan:
@@ -37,7 +92,7 @@ jobs:
           git commit -m "Update todays date"
       outputs:
       - name: repo1
-  - put: repo1
+  - put: put-repo
     params:
-      repository: {repository: https://github.com/yprashanth67/Test.git}
+      repository: repo1
 
