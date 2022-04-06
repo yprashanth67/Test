@@ -12,14 +12,7 @@ resources:
   source:
     uri: git@github.com:yprashanth67/Test1.git
     branch: master
-    private_key: gitpk1.pem
-
-
-
-# - name: repo1
-#   type: git
-#   source:
-#    uri: https://github.com/yprashanth67/lostcause.git
+    private_key: ((private_key))
 
 
 
